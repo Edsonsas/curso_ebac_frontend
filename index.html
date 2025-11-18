@@ -9,21 +9,31 @@
 </head>
 <body>
     <header>
-        <h1>Meu portal de notícias</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#celebridades" title="Ir para a seção de celebridades">Celebridades</a>
+                    </li>
+                    <li>
+                        <a href="#games" title="Ir para a seção de games">Games</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
+    <section id="sports">
+        <div class="container">
         <h2>Esportes</h2>
-        <article>
+            <div class="articles">
+                <article>
             <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
             <header>
                 <time>13/07/2022 às 12:35</time>
@@ -67,13 +77,29 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
-    </section>
-    <section>
-        <h2>Economia</h2>
         <article>
-            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+            <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
             <header>
                 <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Grande clássico na noite de hoje</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+        <h2>Economia</h2>
+        
+            <div class="articles">
+                <article>
+            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+            <header>
+                <time class="creation-time">13/07/2022 às 12:35</time>
             </header>
             <h3>Dólar em alta de 0.50%</h3>
             <p>
@@ -103,6 +129,92 @@
             </p>
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
+        
+            </div>
+        </div>
+    </section>
+    <section id="games">
+        <div class="container">
+        <h2>Games</h2>
+        
+            <div class="articles">
+                <article>
+            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+            <header>
+                <time class="creation-time">13/07/2022 às 12:35</time>
+            </header>
+            <h3>Jogos de videogame cada vez mais caros</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="https://tse3.mm.bing.net/th/id/OIP.OzfGBrkRUlQ6WeCD6CWyQwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Várias notas de euro" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Guerra dos consoles se acirra</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="https://th.bing.com/th/id/R.47774fab12849aff05ed7ab4b49c7d80?rik=yj%2fQp1dsXNXbow&pid=ImgRaw&r=0" alt="Extração de petróleo" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Como irá ser o novo PS6?</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        
+            </div>
+        </div>
+    </section>
+    <section id="celebridades">
+        <div class="container">
+        <h2>Celebridades</h2>
+            <div class="articles">
+                <article>
+            <img src="https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2025/11/Neymar-Jr-jogador-do-Santos-durante-partida-contra-o-Fortaleza-no-estadio-Vila-Belmiro-pelo-campeonato-Brasileiro-A-2025-1-scaled-aspect-ratio-512-320-9.jpg" alt="Muitos dólares" />
+            <header>
+                <time class="creation-time">13/07/2022 às 12:35</time>
+            </header>
+            <h3>Neymar em mais um escândalo</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="https://portaln10.com.br/todocanal/wp-content/uploads/2025/04/dona-de-mim-familia-boaz.jpg" alt="Várias notas de euro" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Nova novela da globo é um sucesso</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="https://www.jornaldorap.com.br/wp-content/uploads/2024/09/Matue-Foto-Divulgacao.jpg" alt="Extração de petróleo" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Matuê pretende lançar novo album</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        
+            </div>
+        </div>
     </section>
 </body>
 </html>
